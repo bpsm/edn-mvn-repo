@@ -10,7 +10,7 @@ Add the following repository declaration to your pom.
 <repositories>
 
   <repository>
-    <id>my.mvn.repo</id>
+    <id>bpsm-edn-mvn-repo</id>
     <url>https://github.com/bpsm/edn-mvn-repo/raw/master/snapshots<url>
     <snapshots>
       <enabled>true</enabled>
@@ -23,5 +23,5 @@ Add the following repository declaration to your pom.
 
 ## Limitations
 
-Really, the is a terrible idea. I'm working on getting things set up so that I can make use of [Sonatype's free open source maven repo hosting](https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide). 
+Really, the is a [terrible](http://blog.rueedlinger.ch/2012/09/use-github-as-maven-remote-repository/) [idea](http://cemerick.com/2010/08/24/hosting-maven-repos-on-github/). I'm working on getting things set up so that I can make use of [Sonatype's free open source maven repo hosting](https://docs.sonatype.org/display/Repository/Sonatype+OSS+Maven+Repository+Usage+Guide). 
 
