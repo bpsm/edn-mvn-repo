@@ -11,14 +11,14 @@ Add the following repository declaration to your pom.
 
   <repository>
     <id>bpsm-edn-mvn-repo</id>
-    <url>https://github.com/bpsm/edn-mvn-repo/raw/master/snapshots<url>
+    <url>https://github.com/bpsm/edn-mvn-repo/raw/master/snapshots</url>
     <snapshots>
       <enabled>true</enabled>
       <updatePolicy>always</updatePolicy>
     </snapshots>
   </repository>
 
-<repositories>
+</repositories>
 ```
 
 ## Limitations
